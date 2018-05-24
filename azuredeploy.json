@@ -57,30 +57,6 @@
         "description":
           "Optional: The groups you want the invited to be placed in"
       }
-    },
-    "ITC_TOKEN": {
-      "defaultValue": null,
-      "type": "string",
-      "metadata": {
-        "description":
-          "Optional: Set a password to protect your website from random people signing up."
-      }
-    },
-    "GA_PROPERTY_ID": {
-      "defaultValue": null,
-      "type": "string",
-      "metadata": {
-        "description":
-          "Optional: Configure Google Analytics to track visitors on your website."
-      }
-    },
-    "IMPRINT_URL": {
-      "defaultValue": null,
-      "type": "string",
-      "metadata": {
-        "description":
-          "Optional: URL to imprint. The link is shown on the invite page."
-      }
     }
   },
   "variables": {
@@ -141,9 +117,6 @@
             "ITC_APP_ID": "[parameters('ITC_APP_ID')]",
             "FASTLANE_ITC_TEAM_NAME": "[parameters('FASTLANE_ITC_TEAM_NAME')]",
             "ITC_APP_TESTER_GROUPS": "[parameters('ITC_APP_TESTER_GROUPS')]",
-            "ITC_TOKEN": "[parameters('ITC_TOKEN')]",
-            "GA_PROPERTY_ID": "[parameters('GA_PROPERTY_ID')]",
-            "IMPRINT_URL": "[parameters('IMPRINT_URL')]"
           }
         }
       ],
